@@ -28,7 +28,6 @@ for (let i = 0; i <= btn.length -1; i++) {
     
     qte[i].innerHTML++
     price[i].innerHTML = "$"+ +prices[i].replace("$","") * +qte[i].innerHTML
-     /*innerHTML traja3lek eli maktoub fel tag eli fiha class qte*/
     // Number(qte.innerHTML + 1)
   total()
   });
